@@ -7,6 +7,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import 'react-toastify/dist/ReactToastify.css'
 
+import 'chart.js';
+
 import Layout from './Layout';
 
 const root = createRoot(document.querySelector('#root'));
