@@ -1,8 +1,9 @@
 // Importa las bibliotecas necesarias
 import React, { useState } from 'react';
-import { defaults } from 'chart.js/auto'
+import { Chart, registerables } from 'chart.js';
 import { Pie, Chart as ChartJS, Doughnut, Line } from 'react-chartjs-2';
 
+Chart.register(...registerables);
 // Crea el componente de gráfico
 const Example7 = (props) => {
     // Define los datos del gráfico
