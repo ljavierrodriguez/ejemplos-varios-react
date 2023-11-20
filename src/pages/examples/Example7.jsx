@@ -1,5 +1,6 @@
 // Importa las bibliotecas necesarias
 import React, { useState } from 'react';
+import { defaults } from 'chart.js/auto'
 import { Pie, Chart as ChartJS, Doughnut, Line } from 'react-chartjs-2';
 
 // Crea el componente de gráfico
